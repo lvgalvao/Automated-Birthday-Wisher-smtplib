@@ -5,11 +5,9 @@ import random
 #The config file with credentials
 import config
 
-EMAIL_FROM = 'alfredbootcamp@gmail.com'
+EMAIL_FROM = config.EMAIL_FROM
 PASSWORD = config.PASSWORD
-EMAIL_TO = 'batmanbootcamp@yahoo.com'
-MSG = 'Hey batman, whats for dinner?'
-DATE_OF_BIRTH = dt.datetime(year= 1915, month= 4, day= 7)
+EMAIL_TO = config.EMAIL_TO
 
 # ---SEND-EMAIL---#
 
